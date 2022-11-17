@@ -1,0 +1,56 @@
+*{
+    padding:0%;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(30, 102, 120);
+    cursor:url(img/cursor.cur),default;
+}
+
+.album{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    gap:2vw;
+    padding: 2vw;
+
+}
+
+.foto-album img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+
+}
+
+.foto-album{
+    width: 340px;
+    height: 340px;
+    border: 10px solid rgb(0, 87, 128);
+    box-shadow: 5px 5px 5px rgb(0, 0, 0);
+    transition: transform .3s;
+    flex-grow: 1;
+
+
+
+}
+
+.foto-album:hover{
+    transform: scale(1.5);}
+
+header{
+    transition:transform .5s
+
+
+}
+header:hover{
+    transform:scale(1.1);
+
+
+}
+#cabecalho{
+        font-size: 2.0em;
+        padding: 5%;
+    }
